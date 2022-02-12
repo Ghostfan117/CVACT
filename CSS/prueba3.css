@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+hgroup > h1, h2{
+  color: #66BFBF;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin-bottom: 20px;
+  margin-top: 0;
+  padding-top: 50px;
+
+  /* 16px Son equivalentes a 100% o a 1em
+Es más recomendable usar "rem" que "em" o "%", pues este no se ve afectado por las designaciones
+del contenedor, por ejemplo, este h1 queda dentro del cuerpo, y si se cambia el tamaño
+del cuerpo con % o em, estetamaño de fuente se verá afectado también si no está escrito en px,
+o en su defecto, "rem".*/
+}
+
+h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.5rem;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2;
+}
+
+hr{
+  border-style: dotted none none;
+  border-color: #EAF6F6;
+  border-width: thick;
+  margin: 50px auto 50px auto;
+  width: 5%;
+}
+
+.cabeza {
+  color: #A8A48F;
+}
+
+.Emile {
+  height: 300px;
+  margin: 100px auto 100px auto;
+  width: 15%;
+}
+
+.skill-row{
+height: auto;
+margin: 100px auto 100px auto;
+width: 600px;
+text-align: left;
+line-height: 2;
+font-weight: normal;
+}
+
+.No{
+  padding-top: 50px;
+  width: 10%;
+}
+
+.Noble{
+  float: left;
+  margin-right: 30px;
+  width: 35%;
+}
+
+.Noble6{
+  float: right;
+  margin-left: 30px;
+  width: 35%;
+}
+
+.cuadro {
+  background-color: #DDF5F5;
+  margin: 0;
+  width: 100%;
+}
+
+.marcar {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.Nube-arriba {
+  padding: 100px;
+  position: absolute;
+  left: 300px;
+  top: 150px;
+}
+
+.Montaña {
+  padding-top: 100px;
+}
+
+.Nube-abajo {
+  position: absolute;
+  top: 50px;
+}
+
+.contact-me{
+line-height: 2;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Cormorant Garamond', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  margin-top: 50px;
+  padding: 50px;
+  font-size: 1.5rem;
+}
+
+.ya{
+  margin: 30px auto 40px auto;
+}
+
+.Desafio{
+  color: #11999E;
+  font-family: 'Cormorant Garamond', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.yo{
+  color: #EAF6F6;
+  font-size: 1rem;
+}
